@@ -1,0 +1,16 @@
+--数据库   建库建表语句
+
+ create database fileChange;
+ use fileChange;
+ create table file(
+	 id varchar(100) primary key,
+	 uuidname varchar(100),
+	 filename varchar(100),
+	 savepath varchar(100),
+	 uploadtime  Timestamp,
+	 description varchar(100),
+	 username varchar(30)
+ );
+
+
+ 
